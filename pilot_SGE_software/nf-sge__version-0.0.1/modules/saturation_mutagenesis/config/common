@@ -1,0 +1,7 @@
+//Include software configs
+includeConfig 'needle'
+
+params {
+	no_analysis = false
+	sample_to_library_mapping = false
+}

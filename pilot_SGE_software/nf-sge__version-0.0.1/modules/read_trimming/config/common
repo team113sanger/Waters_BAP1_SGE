@@ -1,0 +1,6 @@
+//Include software configs
+includeConfig 'cutadapt'
+
+params {
+	no_trim = false
+}

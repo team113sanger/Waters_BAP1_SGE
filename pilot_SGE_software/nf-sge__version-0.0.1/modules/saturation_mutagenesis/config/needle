@@ -1,0 +1,17 @@
+/* -------------------------------------------------
+*  Nextflow config file: indel alignment (needle)
+* -------------------------------------------------
+* Default config options for all environments.
+*/
+
+params {
+	needle_sformat2 = 'fastq'
+	needle_aformat3 = 'sam'
+	needle_aextension3 = 'sam'
+	needle_gapopen = '10'
+	needle_gapextend = '0.5'
+	needle_endopen = '10'
+	needle_endextend = '0.5'
+	needle_endweight = false
+	needle_extra_options = false  
+}
