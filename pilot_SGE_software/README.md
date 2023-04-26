@@ -4,7 +4,7 @@
 
 `nf-sge` is a prototype version of the Nextflow pipeline [QUANTS](https://github.com/cancerit/QUANTS) and was used for HDR library quantification in the pilot SGE experiment. 
 
-Version 0.0.1 of the `nf-sge` pipeline has been included in this repository ([nf-sge__version-0.0.1](nf-sge__version-0.0.1)) which was run using a container with the dependencies (e.g. [Cutadapt](https://cutadapt.readthedocs.io/en/stable/) version 2.5 with Python 3.6.8) available which was built from the  Dockerfile([nf-sge__docker-version-0.0.5](nf-sge__docker-version-0.0.5)). []() version 19.10.0
+Version 0.0.1 of the `nf-sge` pipeline ([nf-sge__version-0.0.1](nf-sge__version-0.0.1)) was run using [Nextflow](https://www.nextflow.io/) version 19.10.0 and Docker (for dependencies e.g. [Cutadapt](https://cutadapt.readthedocs.io/en/stable/)). Included within this repository is the Dockerfile and scripts used to generate that container [nf-sge__docker-version-0.0.5](nf-sge__docker-version-0.0.5). 
 
 To run the pipeline:
 
