@@ -4,6 +4,8 @@ This repository contains code and methods for the publication:
 
 ***Nucleotide resolution saturation genome editing of BAP1 to resolve variants of uncertain significance and to functionally classify somatic variants***
 
+<span style="color: red;">**Please note: These data are unpublished and not yet subject to peer review. We provide them as a service to the research community but they are embargoed until publication of our paper. They should not be used as the sole basis for clinical decision making.**</span>
+
 ## `waters_bap1_sge_analysis.R`
 
 This is code written in [R](https://cran.r-project.org/) to convert next generation sequencing counts into functional scores for BAP1 SGE. 
