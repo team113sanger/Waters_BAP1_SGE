@@ -1,0 +1,6 @@
+//Include software configs
+includeConfig 'multiqc'
+
+params {
+	no_qc = false
+}

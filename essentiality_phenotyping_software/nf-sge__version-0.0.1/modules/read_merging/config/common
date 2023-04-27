@@ -1,0 +1,6 @@
+//Include software configs
+includeConfig 'seqprep'
+
+params {
+	no_merge = false
+}

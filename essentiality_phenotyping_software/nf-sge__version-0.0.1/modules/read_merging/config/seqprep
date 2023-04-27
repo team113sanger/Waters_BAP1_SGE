@@ -1,0 +1,12 @@
+/* -------------------------------------------------
+*  Nextflow config file: read merging (SeqPrep)
+* -------------------------------------------------
+* Default config options for all environments.
+*/
+
+// Global default params, used in configs
+params {
+    seqprep_outdir = "$params.outdir/seqprep"
+   
+    seqprep_extra_options = false    
+}  

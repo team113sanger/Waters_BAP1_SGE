@@ -1,0 +1,19 @@
+module_order:
+  - fastqc:
+      name: 'FastQC (raw)'
+      info: 'This section of the report shows FastQC results before adapter trimming.'
+      path_filters:
+        - '*[!trimmed|merged]_fastqc.zip'
+  - cutadapt:
+      path_filters:
+        - '*cutadapt.out'
+  - fastqc:
+      name: 'FastQC (trimmed)'
+      info: 'This section of the report shows FastQC results after adapter trimming.'
+      path_filters:
+        - '*.trimmed_fastqc.zip'
+  - fastqc:
+      name: 'FastQC (merged)'
+      info: 'This section of the report shows FastQC results after merging.'
+      path_filters:
+        - '*.merged_fastqc.zip'

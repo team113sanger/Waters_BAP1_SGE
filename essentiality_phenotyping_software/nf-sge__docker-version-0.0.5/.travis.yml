@@ -1,0 +1,16 @@
+sudo: false
+
+services:
+  - docker
+
+script:
+ - set -e
+ - echo 'Build and check docker image'
+ - docker build -t nf-sge .
+ - docker images | grep -c nf-sge
+ - echo 'Verify program(s) used by this repo'
+ - docker run -t --rm nf-sge fastqc --help
+ - docker run -t --rm nf-sge multiqc --help
+ #- docker run -t --rm nf-sge SeqPrep -h
+ - docker run -t --rm nf-sge needleall -help
+ - docker run -t --rm nf-sge seqkit --help 

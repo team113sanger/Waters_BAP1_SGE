@@ -1,0 +1,30 @@
+/* -------------------------------------------------
+*  Nextflow config file: read trimming (cutadapt)
+* -------------------------------------------------
+* Default config options for all environments.
+*/
+
+// Global default params, used in configs
+params {
+    cutadapt_cores = 1
+    cutadapt_outdir = "$params.outdir/cutadapt"
+
+    // Single or paired end
+    cutadapt_a = false
+    cutadapt_g = false
+    cutadapt_b = false
+
+    // Paired end only 
+    cutadapt_pair_adapters = false
+    cutadapt_pair_filter = 'any'
+    cutadapt_A = false
+    cutadapt_G = false
+    cutadapt_B = false
+
+    // Common 
+    cutadapt_error_rate = 0.1
+    cutadapt_times = 1
+    cutadapt_overlap = 3
+
+    cutadapt_extra_options = false    
+}    
