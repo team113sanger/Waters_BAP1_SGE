@@ -2,7 +2,7 @@
 
 This repository contains code and methods for the publication:
 
-***Nucleotide resolution saturation genome editing of BAP1 to resolve variants of uncertain significance and to functionally classify somatic variants***
+***Comprehensive Nucleotide resolution saturation genome editing of BAP1 to resolve variants of uncertain significance and to functionally classify somatic variants***
 
 <span style="color: red;">**Please note: These data are unpublished and not yet subject to peer review. We provide them as a service to the research community but they are embargoed until publication of our paper. They should not be used as the sole basis for clinical decision making.**</span>
 
