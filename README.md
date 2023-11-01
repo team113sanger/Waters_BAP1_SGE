@@ -45,10 +45,7 @@ Whole genome sequencing of the HAP1-A5 Cas9+ HAP1- clonal line used in SGE of BA
 
 [https://gatk.broadinstitute.org/hc/en-us](https://gatk.broadinstitute.org/hc/en-us)
 
-SNPs in this line can be found in the GATK output, here:
-
-* `GATK_variants.vcf.gz`
-* `GATK_variants.vcf.gz.tbi`
+SNPs in this line can be found in the GATK output [here on FigShare](https://figshare.com/articles/dataset/HAP1_variants_called_using_GATK_used_in_SGE_of_BAP1/24480886).
 
 ## `Explanation_of_functional_score_and_DESEq2_use_in_SGE.docx`
 
