@@ -2,9 +2,7 @@
 
 This repository contains code and methods for the publication:
 
-***[Saturation genome editing of BAP1 functionally classifies somatic and germline variants](https://www.nature.com/articles/s41588-024-01799-3)***
-
-<span style="color: red;">**Please note: These data are unpublished and not yet subject to peer review. We provide them as a service to the research community but they are embargoed until publication of our paper. They should not be used as the sole basis for clinical decision making.**</span>
+**[Saturation genome editing of *BAP1* functionally classifies somatic and germline variants](https://doi.org/10.1038/s41588-024-01799-3)**
 
 ## `waters_bap1_sge_analysis_v2.R`
 
